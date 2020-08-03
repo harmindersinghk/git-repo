@@ -248,7 +248,7 @@ else:
   urllib.error = urllib2
 
 
-home_dot_repo = os.path.expanduser('~/.repoconfig')
+home_dot_repo = '~/.repoconfig'
 gpg_dir = os.path.join(home_dot_repo, 'gnupg')
 
 
